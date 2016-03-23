@@ -1,0 +1,212 @@
+<extend name="Base/no_side_common" />
+<block name="body">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        <!--<script type="text/javascript" src="laydate/laydate.js"></script>-->
+        <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/laydate-v1.1/laydate/laydate.js" ></script>
+        <link type="text/css" rel="stylesheet" href="{:ADDON_PUBLIC_PATH}/css/reset.css" />
+        <link type="text/css" rel="stylesheet" href="{:ADDON_PUBLIC_PATH}/css/prize.css" />
+        <script type="text/javascript" src="{:ADDON_PUBLIC_PATH}/js/jquery.js"></script>
+    </head>
+
+    <body>{:U('save?survey_id='.$_GET['survey_id'])}&id={$_GET['id']}
+    <section>
+        <form id="all" action="{:U('save?survey_id='.$_GET['survey_id'])}&id={$_GET['id']}" method="post">
+            <div id="activity">
+                <ul id="part">
+                    <li><a>标题:</a><input type="text" id="partname" value="{$data.title}" name="title" onBlur="checkna()" required />
+                        <span class="tips" id="tipspart">长度1~12个字符</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--奖品名称及概率-->
+            <div id="out">
+                <div id="ceshi">
+                    <ul id="prize">
+                        <input type="text" id="wuyu" value="1"/>
+                        <!--   <li class="margin">
+                               <a>奖项等级:</a><input type="text" id="rank" value="1" name="rank" onBlur="checkrank()" required />
+                               <span class="tips" id="tipsrank">长度1~12个字符</span>
+                           </li>-->
+                        <li class="margin">
+                            <a>奖品名称:</a><input type="text" id="name" value="{$data.prize_id}" name="prize_name" onBlur="checkname()" required/>
+                            <span class="tips" id="tipsname">长度1~12个字符</span>
+                        </li>
+                        <li>
+                            <a>奖品数量:</a><input type="text" id="number" value="{$data.prize_num}" name="prize_num" onBlur="checknumber()" required/>
+                            <span class="tips" id="tipsnumber">长度1~12个字符</span>
+                        </li>
+                        <li>
+                            <a>中奖率:</a><input type="text" id="chance" value="{$data.probability}" name="probability" onBlur="checkchance()" required/>
+                            <span class="tips" id="tipschance">长度1~12个字符</span>
+                        </li>
+                        <input type="button" id="btn_deltr" onClick="deltr()" value="-">
+
+                    </ul>
+                </div>
+                <input type="button" id="btn_addtr" value="+">
+            </div>
+
+
+            <!--起止时间-->
+            <div id="date">
+                <volist name="data" id="data">
+                    <div id="ei">
+                        <ul id="dateout">
+                            <input type="text" id="wuyu" value="1"/>
+                            <li>
+                                <a>起止日期:</a><input type="text" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" class="laydate-icon" id="start" name="start_time " onBlur="checkstart()" required value="{$data.start_time|date='Y/m/d H:i:s',###}" />
+                            </li>
+                            <li>
+                                <a>结束日期:</a><input type="text" value="{$data.end_time|date='Y/m/d H:i:s',###}" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" class="laydate-icon" id="end" name="end_time" onBlur="checkend()" required />
+                            </li>
+                            <li>
+                                <input type="button" id="delete" onclick="delt()" value="-" onclick="delt()">
+                            </li>
+                        </ul>
+                    </div>
+                </volist>
+                <input type="button" id="raise" value="+" />
+            </div>
+
+
+            <!--总的抽奖次数-->
+            <div id="times">
+                <ul id="usertimes">
+                    <li><a>总抽奖次数:</a><input type="text" id="everyday" value="{$data.total_frequency}" name="total_frequency" onBlur="checkday()" required/></li>
+                    <li><a>每位用户总次数:</a><input type="text" id="everyone" value="{$data.user_frequency}" name="user_frequency" onBlur="checkone()" required/></li>
+                </ul>
+            </div>
+            <input type="submit" id="save" value="保存"/>
+        </form>
+    </section>
+ {$joinurl}
+
+    <!--javascript-->
+
+    <script type="text/javascript">
+        $(function(){
+            var show_count = 20;   //要显示的条数
+            var count = $("#out input:text").val();    //递增的开始值，这里是你的ID
+            var fin_count = parseInt(count) + (show_count-1);   //结束递增的条件
+
+            $("#btn_addtr").click(function(){
+                if(count < fin_count)    //点击时候，如果当前的数字小于递增结束的条件
+                {
+                    $("#ceshi ul:eq(0)").clone().appendTo("#ceshi");   //在表格后面添加一行
+                }
+            });
+        });
+        function deltr(){
+            var length=$("#out ul").length;
+            if(length<=1){
+                alert("至少保留一行");
+            }else{
+                $("#out ul:eq(0)").remove();
+            }
+        };//奖品名称增加删除
+
+
+        $(function(){
+            var show_count = 20;   //要显示的条数
+            var count = $("#date input:text").val();    //递增的开始值，这里是你的ID
+            var fin_count = parseInt(count) + (show_count-1);   //结束递增的条件
+
+            $("#raise").click(function(){
+                if(count < fin_count)    //点击时候，如果当前的数字小于递增结束的条件
+                {
+                    $("#date ul:eq(0)").clone().appendTo("#ei");   //在表格后面添加一行
+                }
+            });
+        });
+        function delt(){
+            var length=$("#date ul").length;
+            if(length<=1){
+                alert("至少保留一行");
+            }else{
+                $("#date ul:eq(1)").remove();
+            }
+        }//起止日期的增加删除
+
+
+        $('#save').click(function(){
+
+            $.Dialog.loading();
+            $.post($('#all').attr('action'),
+                    $('#all').serializeArray(),
+                    function(data){
+                        window.location.href = data.url;
+                    });
+
+        });//表单数据的提交
+
+
+        //以下是正则表达式的验证
+        function checkna(){
+            na=all.partname.value;
+            if( na.length <1 || na.length >12)
+            {
+                tipspart.innerHTML='<font class="false">必填！！！</font>';
+            }else{
+                tipspart.innerHTML='<font class="true">√正确</font>';
+            }
+        };//活动名称
+        function checkrank(){
+            rank=all.rank.value;
+            if( rank.length <1 || rank.length >12)
+            {
+                tipsrank.innerHTML='<font class="false">必填！！！</font>';
+            }else{
+                tipsrank.innerHTML='<font class="true">√正确</font>';
+            }
+        };//奖项等级
+        function checkname(){
+            name=all.name.value;
+            if( name.length <1 || name.length >12)
+            {
+                tipsname.innerHTML='<font class="false">必填！！！</font>';
+            }else{
+                tipsname.innerHTML='<font class="true">√正确</font>';
+            }
+        };//奖品名称
+        function checknumber(){
+            number=all.number.value;
+            if( number.length <1 || number.length >12)
+            {
+                tipsnumber.innerHTML='<font class="false">必填！！！</font>';
+            }else{
+                tipsnumber.innerHTML='<font class="true">√正确</font>';
+            }
+        };//奖品数量
+        function checkchance(){
+            chance=all.chance.value;
+            if( chance.length <1 || chance.length >12)
+            {
+                tipschance.innerHTML='<font class="false">必填！！！</font>';
+            }else{
+                tipschance.innerHTML='<font class="true">√正确</font>';
+            }
+        };//中奖几率
+        function checkend(){
+            end=all.end.value;
+        };
+        function checkstart(){
+            end=all.end.value;
+        };//起止日期
+        function checkday(){
+            day=all.day.value;
+        };
+        function checkone(){
+            one=all.one.value;
+        };
+
+
+    </script>
+    </body>
+    </html>
+</block>

@@ -1,0 +1,174 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ul,li{ margin:0; padding:0; list-style:none;}
+#zong input{
+		font-size:20px;
+		color:#999;
+		font-family:"微软雅黑";
+		border:1px solid #888;
+	}
+#zong{
+		width:1200px;
+		margin:0 auto;
+	}
+#all{
+		width:700px;
+		margin:0 auto;
+	}
+#save{
+		width:100px; 
+		height:40px; 
+		border:1px solid #44b549; 
+		background:#44b549; 
+		font-size:18px; 
+		color:#fff;
+		margin-top:20px;
+		float:right;
+	}
+#out{
+		width:700px;
+		margin:0 auto;
+		position:relative;
+	}
+#prize{
+		width:700px;
+		margin:0 auto;
+		border-bottom:1px solid #cccccc;
+	}
+#prize li{
+		margin-bottom:20px;
+		height:40px;
+	}
+#prize li.margin{
+		margin-top:20px;
+	}
+#zong a{
+		font-size:24px;
+		margin-right:10px;
+		color:#555555;
+	}
+#wuyu{
+		display:none;
+	}
+#prize #rank,#name,#number,#chance{
+		width:300px;
+		height:40px;
+	}
+#prize #number,#chance{
+		width:150px;
+	}
+#prize #btn_deltr{
+		width:30px;
+		height:30px;
+		background:#F00;
+		color:#fff;
+		border:1px solid #F00;
+		font-size:28px;
+		text-align:center;
+		cursor:pointer;
+		position:absolute;
+		bottom:20px;
+		right:50px;
+	}
+#btn_addtr{
+		width:30px;
+		height:30px;
+		position:absolute;
+		bottom:20px;
+		right:0;
+		background:#4fb34f;
+		color:#fff;
+		border:1px solid #4fb34f;
+		font-size:24px;
+		cursor:pointer;
+	}
+#date{
+		width:700px;
+		margin:0 auto;
+		position:relative;
+	}
+#dateout{
+		width:700px;
+		border-bottom:1px solid #ccc;
+	}
+#dateout li{
+		display:inline-block;
+		margin:20px 0;
+		margin-right:12px;
+	}
+#dateout #start,#end{
+		width:160px;
+		height:40px;
+		color:#F00;
+		font-size:14px;
+		border:1px solid #888;
+	}
+#dateout #delete{
+		width:25px;
+		height:25px;
+		background:#F00;
+		color:#fff;
+		border:1px solid #F00;
+		cursor:pointer;
+		margin-left:20px;
+	}
+#raise{
+		width:25px;
+		height:25px;
+		position:absolute;
+		bottom:46px;
+		right:0;
+		background:#4fb34f;
+		color:#fff;
+		border:1px solid #4fb34f;
+		cursor:pointer;
+	}
+#times{
+		width:700px;
+		margin:0 auto;
+	}
+#times #usertimes{
+		width:700px;
+		border-bottom:1px solid #ccc;
+	}
+#times #usertimes li{
+		display:inline-block;
+		margin:20px 0;
+		margin-right:54px;
+	}
+#times #everyday,#everyone{
+		width:100px;
+		height:40px;
+	}
+#activity{
+		width:700px;
+		margin:0 auto;
+	}
+#activity #part{
+		width:700px;
+		border-bottom:1px solid #ccc;
+	}
+#activity #part li{
+		margin:20px 0;
+	}
+#activity #partname{
+		width:300px;
+		height:40px;
+	}
+.tips{
+		font:16px/40px "微软雅黑";
+		margin-left:10px;
+		color:rgba(0,0,0,.4);
+	}
+.false,.true{
+		font:16px/40px "微软雅黑";
+		margin-left:10px;
+		color:#F00;
+	}
+.true{
+		color:#4fb34f;
+	}
+.laydate_body .laydate_table td{
+		background:#999;
+	}
+ .clear{ clear:both;}

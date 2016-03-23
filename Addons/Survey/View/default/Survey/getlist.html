@@ -1,0 +1,22 @@
+<extend name="Base/no_side_common" />
+<block name="body"><section class="tab-content" id="contents">
+
+                            <!-- 列表 -->
+                            <tbody>
+                            <volist name="data" id="data">
+                                <tr>
+                                    <td>{$data.id}</td>
+                                    <td>{$data.public_name}</td>
+                                    <td>{$data.token}</td>
+                                    <td>{$data.count}</td>
+                                    <td><a href="{:U('Home/Public/main',array('public_id'=>$data[id]))}" target="_self">变化</a></td></tr><br>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+            </notempty>
+    </div>
+    </section>
+    </div>
+</block>

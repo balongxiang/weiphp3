@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="laydate/laydate.js"></script>
+<link type="text/css" rel="stylesheet" href="css/reset.css" />
+<link type="text/css" rel="stylesheet" href="css/prize.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+<section>
+    <div id="all">
+        <div id="out">
+        	<div id="ceshi">
+                <ul id="prize">
+                	<input type="text" id="wuyu" value="1"/>
+                    <li class="margin">
+                        <a>奖项等级:</a><input type="text" id="rank"/>
+                    </li>
+                    <li>
+                        <a>奖品名称:</a><input type="text" id="name"/>
+                    </li>
+                    <li>
+                        <a>奖品数量:</a><input type="text" id="number"/>
+                    </li>
+                    <li>
+                        <a>中奖率:</a><input type="text" id="chance"/>
+                    </li>
+                    <li><input type="button" id="btn_deltr" onclick="deltr()" value="-"></li>
+                    
+                </ul>
+            </div>
+            <input type="button" id="btn_addtr" value="+">
+        </div>
+        
+        <div id="date">
+        	<div id="ei">
+                <ul id="dateout">
+                    <input type="text" id="wuyu" value="1"/>
+                    <li>
+                    	<a>起止日期:</a><input type="text" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" class="laydate-icon" id="start" />
+                    </li>
+                    <li>
+                    	<a>结束日期:</a><input type="text" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" class="laydate-icon" id="end" />
+                   	</li>
+                    <li>
+                    	<input type="button" id="delete" onclick="delt()" value="-" onclick="delt()">
+                    </li>
+                </ul>
+            </div>
+            <input type="button" id="raise" value="+" />
+        </div>
+        
+        <div id="times">
+            <ul id="usertimes">
+                <li><a>每日抽奖次数:</a><input type="text" id="everyday"/></li>
+                <li><a>每位用户总次数:</a><input type="text" id="everyone"/></li>
+            </ul>
+        </div>
+        <div id="activity">
+            <ul id="part">
+                <li><a>活动名称:</a><input type="text" id="partname"/></li>
+            </ul>
+        </div>
+    </div>
+    
+</section>
+<script> 
+ $(function(){ 
+ var show_count = 20;   //要显示的条数 
+ var count = $("#out input:text").val();    //递增的开始值，这里是你的ID 
+ var fin_count = parseInt(count) + (show_count-1);   //结束递增的条件 
+ 
+ $("#btn_addtr").click(function(){
+ if(count < fin_count)    //点击时候，如果当前的数字小于递增结束的条件
+ {
+ $("#ceshi ul:eq(0)").clone().appendTo("#ceshi");   //在表格后面添加一行
+ }
+ });
+ });
+ function deltr(){
+ var length=$("#out ul").length;
+ if(length<=1){
+ alert("至少保留一行");
+ }else{
+ $("#out ul:eq(0)").remove();
+ }
+ };//奖品名称增加删除
+
+
+ $(function(){ 
+ var show_count = 7;   //要显示的条数 
+ var count = $("#date input:text").val();    //递增的开始值，这里是你的ID 
+ var fin_count = parseInt(count) + (show_count-1);   //结束递增的条件 
+ 
+ $("#raise").click(function(){
+ if(count < fin_count)    //点击时候，如果当前的数字小于递增结束的条件
+ {
+ $("#date ul:eq(0)").clone().appendTo("#ei");   //在表格后面添加一行
+ }
+ });
+ });
+ function delt(){
+ var length=$("#date ul").length;
+ if(length<=1){
+ alert("至少保留一行");
+ }else{
+ $("#date ul:eq(1)").remove();
+ }
+ }//起止日期的增加删除
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<?php
+//000000086400a:2:{i:0;a:10:{s:2:"id";s:1:"1";s:5:"title";s:1:"w";s:5:"intro";N;s:5:"cTime";N;s:5:"token";s:5:"sdasd";s:7:"is_must";s:1:"0";s:5:"extra";s:0:"";s:4:"type";s:8:"textarea";s:9:"survey_id";s:1:"1";s:4:"sort";s:1:"0";}i:1;a:10:{s:2:"id";s:1:"2";s:5:"title";s:1:"w";s:5:"intro";N;s:5:"cTime";N;s:5:"token";s:5:"sdasd";s:7:"is_must";s:1:"0";s:5:"extra";s:0:"";s:4:"type";s:8:"textarea";s:9:"survey_id";s:1:"1";s:4:"sort";s:1:"1";}}
+?>

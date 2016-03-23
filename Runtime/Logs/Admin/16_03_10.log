@@ -1,0 +1,2219 @@
+[ 2016-03-10T14:46:55+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004870s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `wp_config` SET `value`='-11887' WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0062s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-11887' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 127 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 0  [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 50 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0048s ]
+
+[ 2016-03-10T14:46:55+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005904s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0036s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-11887' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = -11887 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 127 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = -11887  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-03-10T14:47:02+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `login_name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-10T14:47:05+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008413s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `login_name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_action` WHERE `name` = 'admin_login' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `wp_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('12','1','2130706433','user','1','1457592425','admin在2016-03-10 14:47登录了后台') [ RunTime:0.0009s ]
+SQL: UPDATE `wp_user` SET `login_count`=`login_count`+1,`last_login_time`='1457592425',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0003s ]
+
+[ 2016-03-10T14:47:05+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0043s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0119s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-10T14:47:06+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005574s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.298567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.298837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-03-10T14:47:06+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004826s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2016-03-10T14:47:10+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0043s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/index%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','CardVouchers','Chat','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Extensions','FlightId','Forms','Game','Guess','HelloWorld','Invite','Leaflets','NoAnswer','Payment','PublicBind','RealPrize','Reserve','Robot','Scratch','Shop','Sms','Survey','Test','Tongji','UserCenter','Vote','Wecome','WeiSite','WishCard','Xydzp','YouaskService','house') ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 96 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 104 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 105 行.
+NOTIC: [8] Undefined index: is_show_text D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 137 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Guess/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Guess/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Coupon/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Coupon/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Game/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Game/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CardVouchers/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CardVouchers/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/DeveloperTool/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/DeveloperTool/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: ConfigureAccount D:\wamp\www\weiphp3\Application\Home\Model\AddonsModel.class.php 第 70 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Extensions/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Extensions/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/AutoReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/AutoReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomMenu/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomMenu/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Draw/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Draw/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Exam/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Exam/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Forms/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Forms/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-03-10T14:47:11+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/create%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`description` FROM `wp_hooks` WHERE ( name!="weixin" )  [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\weiphp3\Runtime\Cache\Admin\49345d94a54bbe7b6db38a2da2c2b322.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2016-03-10T14:49:09+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/checkForm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/checkForm%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+
+[ 2016-03-10T14:49:09+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/build.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0039s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/build%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: has_config D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 42 行.
+NOTIC: [8] Undefined index: admin_list D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: custom_adminlist D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 63 行.
+NOTIC: [8] Undefined index: has_config D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 154 行.
+NOTIC: [8] Undefined index: custom_adminlist D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 170 行.
+NOTIC: [8] Undefined index: has_config D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 226 行.
+
+[ 2016-03-10T14:49:11+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/index%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','CardVouchers','Chat','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Extensions','FlightId','Forms','Game','Guess','HelloWorld','Invite','Leaflets','NoAnswer','Payment','PublicBind','RealPrize','Reserve','Robot','Scratch','Shop','Sms','Survey','Test','Tongji','UserCenter','Vote','Wecome','WeiSite','Wheel','WishCard','Xydzp','YouaskService','house') ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 96 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 104 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 105 行.
+NOTIC: [8] Undefined index: is_show_text D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 137 行.
+NOTIC: [8] Undefined index: is_show_text D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 137 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Guess/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Guess/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Coupon/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Coupon/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Game/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Game/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CardVouchers/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CardVouchers/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/DeveloperTool/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/DeveloperTool/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: ConfigureAccount D:\wamp\www\weiphp3\Application\Home\Model\AddonsModel.class.php 第 70 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Extensions/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Extensions/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/AutoReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/AutoReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomMenu/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomMenu/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Draw/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Draw/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Exam/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Exam/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-03-10T14:49:14+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/install/addon_name/Wheel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004604s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+' WHERE `name` = 'addon_status' [ RunTime:0.0046s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/install%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_addons` WHERE `name` = 'Wheel' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `wp_addons` (`name`,`title`,`description`,`status`,`author`,`version`,`has_adminlist`,`type`,`create_time`) VALUES ('Wheel','大转盘','抽奖大转盘','1','balong','0.1','1','0','1457592553') [ RunTime:0.0003s ]
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: Wheel D:\wamp\www\weiphp3\Application\Home\Model\AddonsModel.class.php 第 70 行.
+NOTIC: [2] include_once(./Addons/Wheel/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Wheel/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: UPDATE `wp_addons` SET `config`='null' WHERE ( name='Wheel' ) [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `wp_hooks`  [ RunTime:0.0004s ]
+SQL: SELECT `addons` FROM `wp_hooks` WHERE ( name='weixin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wp_hooks` SET `addons`='Hitegg,Diy,RedBag,WeMedia,ShopCoupon,Card,SingIn,Seckill,CustomMenu,CustomReply,AutoReply,WeiSite,UserCenter,Exam,Draw,Extensions,Forms,Coupon,Guess,Comment,Game,ConfigureAccount,Chat,CardVouchers,Ask,BusinessCard,HelloWorld,Invite,Tongji,Test,Vote,Sms,Survey,Shop,Wecome,WishCard,Scratch,Robot,YouaskService,RealPrize,Xydzp,Reserve,PublicBind,Payment,Leaflets,NoAnswer,house,FlightId,Wheel' WHERE ( name='weixin' ) [ RunTime:0.0003s ]
+
+[ 2016-03-10T14:49:16+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/Admin/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+SQL: SELECT `name`,`addons` FROM `wp_hooks`  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Hitegg','Diy','RedBag','WeMedia','ShopCoupon','Card','SingIn','Seckill','CustomMenu','CustomReply','AutoReply','WeiSite','UserCenter','Exam','Draw','Extensions','Forms','Coupon','Guess','Comment','Game','ConfigureAccount','Chat','CardVouchers','Ask','BusinessCard','HelloWorld','Invite','Tongji','Test','Vote','Sms','Survey','Shop','Wecome','WishCard','Scratch','Robot','YouaskService','RealPrize','Xydzp','Reserve','PublicBind','Payment','Leaflets','NoAnswer','house','FlightId','Wheel')  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Hitegg','Diy','RedBag','WeMedia','ShopCoupon','Card','SingIn','Seckill','CustomMenu','CustomReply','AutoReply','WeiSite','UserCenter','Exam','Draw','Extensions','Forms','Coupon','Guess','Comment','Game','ConfigureAccount','Chat','CardVouchers','Ask','BusinessCard','HelloWorld','Invite','Tongji','Test','Vote','Sms','Survey','Shop','Wecome','WishCard','Scratch','Robot','YouaskService','RealPrize','Xydzp','Reserve','PublicBind','Payment','Leaflets','NoAnswer','house','FlightId','Wheel')  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0003s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.265630s ]
+INFO: [ app_init ] --END-- [ RunTime:0.266693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\weiphp3\ThinkPHP\Library\Think\Controller.class.php 第 506 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id D:\wamp\www\weiphp3\Application\Common\Model\AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 94 行.
+NOTIC: [8] Undefined index: 60 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 104 行.
+NOTIC: [8] Undefined variable: addons D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 501 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: side D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 167 行.
+NOTIC: [8] Undefined offset: 14 D:\wamp\www\weiphp3\Application\Common\Model\ManagerMenuModel.class.php 第 173 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `wp_attribute` SET `extra`='160:自定义回复
+161:自动回复
+162:微官网
+163:微信用户中心
+164:微考试
+165:比赛抽奖
+166:融合第三方
+167:通用表单
+168:开发者工具箱
+190:你问我答客服系统
+191:实物奖励
+192:幸运大转盘
+193:微预约
+188:刮刮卡
+189:机器人聊天
+169:优惠券
+170:竞猜
+171:评论互动
+172:互动游戏
+176:抢答
+177:微名片
+178:飞行证生成
+182:投票
+183:短信服务
+184:房产证生成
+185:商城
+187:微贺卡
+186:欢迎语
+179:微邀约
+180:统计监控
+181:微测试
+175:微信卡券
+174:智能聊天
+159:自定义菜单
+194:一键绑定公众号
+195:支付通
+196:微信宣传页
+197:没回答的回复
+198:房产证生成器
+199:飞行证生成
+200:微邀约
+201:大转盘
+' WHERE `name` = 'addon_status' [ RunTime:0.0041s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Addons/index%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','CardVouchers','Chat','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Extensions','FlightId','Forms','Game','Guess','HelloWorld','Invite','Leaflets','NoAnswer','Payment','PublicBind','RealPrize','Reserve','Robot','Scratch','Shop','Sms','Survey','Test','Tongji','UserCenter','Vote','Wecome','WeiSite','Wheel','WishCard','Xydzp','YouaskService','house') ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\weiphp3\Application\Admin\Controller\AddonsController.class.php 第 266 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 96 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 104 行.
+NOTIC: [8] Undefined variable: 0 D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 105 行.
+NOTIC: [8] Undefined index: is_show_text D:\wamp\www\weiphp3\Runtime\Cache\Admin\50122fa2bddc1c4a2751081bf5f0b5dc.php 第 137 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Game/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Game/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Coupon/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Coupon/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: ConfigureAccount D:\wamp\www\weiphp3\Application\Home\Model\AddonsModel.class.php 第 70 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Guess/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Guess/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CardVouchers/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CardVouchers/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/DeveloperTool/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/DeveloperTool/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Forms/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Forms/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/AutoReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/AutoReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomReply/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomReply/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/CustomMenu/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/CustomMenu/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Extensions/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Extensions/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Draw/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Draw/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: -1 D:\wamp\www\weiphp3\Application\Common\Model\PublicModel.class.php 第 38 行.
+NOTIC: [2] include_once(./Addons/Exam/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] include_once() [<a href='function.include'>function.include</a>]: Failed opening './Addons/Exam/config.php' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2683 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\weiphp3\Application\Common\Common\function.php 第 2684 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+

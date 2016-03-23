@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+section{
+		width:375px;
+		height:627px;
+		margin:auto;
+		position:relative;
+		overflow:hidden;
+		background:#000;
+	}
+#background{
+		width:100%;
+		margin:auto;
+	}
+section #name{
+		width:240px;
+		height:40px;
+		border-radius:5px;
+		display:block;
+		border:1px solid #000;
+		background:#fff;
+		text-align:left;
+		position:absolute;
+		top:35%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+		font:18px/40px "微软雅黑";
+	}
+section #phone{
+		width:240px;
+		height:40px;
+		border-radius:5px;
+		display:block;
+		border:1px solid #000;
+		background:#fff;
+		text-align:left;
+		position:absolute;
+		top:46%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+		font:18px/40px "微软雅黑";	
+	}
+section .shanghai{
+		width:80px;
+		heigh:80px;
+		position:absolute;
+		top:57%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+	}
+section a{
+		position:absolute;
+		top:72%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+		font:24px/24px "微软雅黑";
+		text-align:center;
+		letter-spacing:4px;
+	}
+section .zhang{
+		width:80px;
+		height:80px;
+		position:absolute;
+		top:64%;
+		left:70%;
+	}
+section #born{
+		width:160px;
+		height:40px;
+		position:absolute;
+		top:84%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+		border:1px solid #fff;
+		border-radius:5px;
+		background:#fff;
+		color:#D9171B;
+		font:24px/40px "微软雅黑";
+		text-align:center;
+		letter-spacing:4px;
+		cursor:pointer;
+	}
+section .error{
+		width:200px;
+		font-size:12px;
+		text-align:center;
+		color:#D9171B;
+		position:absolute;
+		top:54%;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0 auto 0;
+	}
+
+
+/*各个设备的尺寸适配*/
+	
+/*/*4/4s适配尺寸*/	
+
+@media all and (min-width:320px) and (max-height:416px){
+section{
+		width:320px;
+		height:480px;
+	}
+section #name{
+		width:200px;
+		height:30px;
+		font:18px/30px "微软雅黑";
+		top:36%;
+	}
+section #phone{
+		width:200px;
+		height:30px;
+		font:18px/30px "微软雅黑";
+		top:47%;		
+	}
+section .shanghai{
+		width:60px;
+		heigh:60px;
+		top:58%;
+	}
+section a{
+		font:20px/20px "微软雅黑";
+		top:72%;
+	}
+section .zhang{
+		width:60px;
+		height:60px;
+		top:74%;
+		left:72%;
+		
+	}
+section #born{
+		width:120px;
+		height:30px;
+		top:79%;
+		font:20px/30px "微软雅黑";
+		background:#fa5355;
+		color:#fff;
+		border:1px solid #fa5355;
+	}
+section .error{
+		top:54%;
+	}
+}
+
+/*5/5s适配尺寸*/
+
+@media all and (min-width:320px) and (max-height:504px){
+section{
+		width:320px;
+		height:568px;
+	}
+section #name{
+		width:200px;
+		height:30px;
+		top:34%;
+		font:18px/30px "微软雅黑";
+	}
+section #phone{
+		width:200px;
+		height:30px;
+		top:44%;
+		font:18px/30px "微软雅黑";	
+	}
+section .shanghai{
+		width:60px;
+		heigh:60px;
+		top:55%;
+	}
+section a{
+		top:68%;
+		font:20px/20px "微软雅黑";
+	}
+section .zhang{
+		width:60px;
+		height:60px;
+		top:62%;
+	}
+section #born{
+		width:120px;
+		height:30px;
+		top:80%;
+		font:20px/30px "微软雅黑";
+	}
+section .error{
+		top:51%;
+	}
+}
+
+/*6/6s适配尺寸*/
+
+@media all and (min-width:375px) and (max-height:600px){
+
+
+}
+
+/*6p/6sp尺寸的适配*/
+
+@media all and (min-width:414px) and (max-height:700px){
+section{
+		width:414px;
+		height:736px;
+	}
+section #name{
+		width:260px;
+		height:40px;
+		top:32%;
+	}
+section #phone{
+		width:260px;
+		height:40px;
+		top:42%;	
+	}
+section .shanghai{
+		width:90px;
+		heigh:90px;
+		top:53%;
+	}
+section a{
+		top:68%;
+		font:24px/24px "微软雅黑";
+	}
+section .zhang{
+		width:90px;
+		height:90px;
+		top:60%;
+	}
+section #born{
+		width:160px;
+		height:40px;
+		top:78%;
+	}
+section .error{
+		font-size:14px;
+		top:49%;
+	}
+}

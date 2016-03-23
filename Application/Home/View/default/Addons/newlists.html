@@ -1,0 +1,66 @@
+<extend name="Base/no_side_common" />
+<block name="body">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        <style type="text/css">
+            .table-striped{width:1200px; height:725px; margin:0 auto; border:1px solid #d9dade; background:#fff;	}
+            .table-striped .kuang{ width:95%; margin:0 auto;}
+            .clear{ clear:both;}
+            #export{ width:100px; height:40px; border:1px solid #44b549; background:#44b549; font-size:18px; color:#fff; float:right;
+                margin-bottom:20px; margin-top:20px; }
+            #gamess{ width:150px; height:40px; border:1px solid #888; background:#888; font-size:18px; color:#fff; float:right;
+                margin-bottom:20px; margin-top:20px; margin-right:20px; !important;  }
+            #table{ width:100%; border:1px solid #dfdfdf; border-spacing:0; border-collapse:collapse;	}
+            #table tr{	display:-webkit-flex; }
+            #table th,td{ border:1px solid #dfdfdf; height:40px; text-align:left; font:16px/40px "微软雅黑"; color:#797a75;}
+            #table th{ background:#eaeaea; color:#333;}
+            #table .number{ -webkit-flex:1; }
+            #table .client{ -webkit-flex:3; }
+            #table .operation{ -webkit-flex:3; }
+            #table .date{ -webkit-flex:3; }
+            td a{ margin-right:20px; text-decoration:none; font:16px/40px "微软雅黑";}
+        </style>
+
+    </head>
+
+    <body>
+    <div class="table-striped">
+        <div class="kuang">
+            <!--<button id="export">导出excel</button>-->
+            <button id="gamess">{$apply}</button>
+            <table id="table">
+                <thead>
+                <tr>
+                    <th class="number">编号</th>
+                    <th class="client">客户名称</th>
+                    <th class="date">时间</th>
+                    <th class="operation">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="data" id="data">
+                    <tr>
+                        <td class="number">{$data.id}</td>
+                        <td class="client">{$data.id}</td>
+                        <td class="date">{$data.date}</td>
+                        <td class="operation">
+                            <a href="{:U('edit',array('id'=>$data[id]))}" target="_blank">编辑</a>
+                            <a href="{:U('del_wheel',array('id'=>$data[id]))}" class="confirm" target="_blank">删除</a>
+                            <a href="{:U('wheel_list',array('id'=>$data[id]))}" target="_blank">数据管理</a>
+                            <a href="{:U('preview',array('id'=>$data[id]))}" target="_blank">预览</a>
+
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    </body>
+    </html>
+
+</block>

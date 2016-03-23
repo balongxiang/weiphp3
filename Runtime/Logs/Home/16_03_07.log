@@ -1,0 +1,222 @@
+[ 2016-03-07T10:15:27+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T10:36:19+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/survey
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T10:36:37+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T10:36:59+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T10:38:26+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T10:46:03+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview/id/1/model/house.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:48:31+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:48:37+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:57:22+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:57:22+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:59:04+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:59:04+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T10:59:04+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:00:47+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:00:47+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview/id/1/model/house.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:03:39+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/aa.html
+ERR: 模板不存在:./Application/Home/View/default/Addons/aa.html
+
+[ 2016-03-07T11:06:41+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/house/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T11:06:58+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:47+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:48+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:48+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:48+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:50+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:50+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:51+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:51+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:56+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:08:56+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:09:38+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:09:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/aaa.html
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T11:10:28+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/aaa.html
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T11:10:29+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/aaa.html
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T11:10:29+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/aaa.html
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T11:10:30+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/aaa.html
+ERR: Think\Controller:方法不存在！
+
+[ 2016-03-07T11:10:36+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/house/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:10:43+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:44+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:45+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:45+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:48+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:48+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:12:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:18:26+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/House/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:18:31+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:18:47+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:21:15+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/preview.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:21:20+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T11:21:39+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T11:21:39+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T11:21:40+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T11:21:44+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T11:23:04+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/preview/id/1/model/house.html
+ERR: Think\Controller:preview方法不存在！
+
+[ 2016-03-07T11:26:46+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T11:26:50+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T11:33:03+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/House/House/nulldeal.html
+ERR: Think\Controller:nulldeal方法不存在！
+
+[ 2016-03-07T11:39:56+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/lists%27.html
+ERR: Think\Controller:lists'方法不存在！
+
+[ 2016-03-07T12:02:42+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T12:04:15+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/aa.html
+ERR: Think\Controller:aa方法不存在！
+
+[ 2016-03-07T12:15:43+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/profile.html
+ERR: Think\Controller:profile方法不存在！
+
+[ 2016-03-07T13:48:28+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/profile.html
+ERR: Think\Controller:profile方法不存在！
+
+[ 2016-03-07T17:04:26+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:05:53+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:06:10+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:11:10+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:11:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:12:24+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/house/house/aaa.html
+ERR: Think\Controller:aaa方法不存在！
+
+[ 2016-03-07T17:12:31+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:12:49+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+
+[ 2016-03-07T17:14:29+08:00 ] 127.0.0.1 /weiphp3/index.php?s=/addon/Survey/Survey/survey/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp.survey_userlog' doesn't exist
+

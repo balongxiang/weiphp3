@@ -1,0 +1,30 @@
+<include file="Public/mobile_head"/>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>房产证生成</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="http://120.55.162.48/weiphp3/Addons/Survey/View/default/css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="http://120.55.162.48/weiphp3/Addons/Survey/View/default/css/home.css" />
+    <script type="text/javascript" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/js/jquery.js"></script>
+    <script type="text/javascript" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/js/jquery.metadata.js"></script>
+    <script type="text/javascript" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/js/home.js"></script>
+</head>
+
+<body>
+<section>
+    <form id="yanzheng" action="{:U('survey','id='.$info[id])}" method="post">
+        <input type="text" placeholder="请输入姓名" id="name" name="name" value="{$info.truename}" />
+        <input type="text" placeholder="请输入您的手机号码" id="phone" name="phone" class="error" value="{$info.mobile}"/>
+        <label for="phone" class="error"></label>
+        <img class="shanghai" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/image/shanghai.png"/>
+        <a>上海</a>
+        <img class="zhang" src="http://120.55.162.48/weiphp3/Addons/Survey/View/default/image/zhang.png"/>
+        <input type="submit" value="立即生成" id="born" />
+    </form>
+</section>
+</body>
+</html>

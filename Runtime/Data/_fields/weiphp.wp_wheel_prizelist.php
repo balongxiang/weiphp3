@@ -1,0 +1,1 @@
+a:6:{i:0;s:8:"prize_id";i:1;s:11:"probability";i:2;s:9:"prize_num";i:3;s:8:"wheel_id";s:3:"_pk";s:8:"prize_id";s:5:"_type";a:4:{s:8:"prize_id";s:16:"int(10) unsigned";s:11:"probability";s:16:"int(10) unsigned";s:9:"prize_num";s:19:"tinyint(8) unsigned";s:8:"wheel_id";s:19:"tinyint(8) unsigned";}}

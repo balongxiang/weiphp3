@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>飞行证生成器</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/css/reset.css" />
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/css/home.css" />
+<script type="text/javascript" src="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/js/jquery.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/js/jquery.validate.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/js/jquery.metadata.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/js/home.js"></script>
+</head>
+
+<body>
+<section>
+	<img id="background" src="http://127.0.0.1/weiphp3/Addons/FlightId/View/default/image/fly7.png" />
+   <!--    http://127.0.0.1/weiphp3/index.php?s=/addon/FlightId/FlightId/flightid&id={$_GET['id']}</br>
+    {:U('flightid?survey_id='.$_GET['survey_id'])}-->
+    <form id="yanzheng" action="http://127.0.0.1/weiphp3/index.php?s=/addon/FlightId/FlightId/flightid&id={$_GET['id']}" method="post">
+    	<input type="text" placeholder="请输入姓名" id="name" name="name" value="{$info.truename}" />
+    	<input type="text" placeholder="请输入您的手机号码" id="phone" name="phone" class="error" value="{$info.mobile}"/>
+        <label for="phone" class="error"></label>
+    	<input type="submit" value="提交" id="born" />
+    </form>
+</section>
+</body>
+</html>

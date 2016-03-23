@@ -1,0 +1,60 @@
+<extend name="Base/no_side_common" />
+<block name="body">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        <style type="text/css">
+            .table-striped{width:1200px; height:725px; margin:0 auto; border:1px solid #d9dade; position:relative;	}
+            .table-striped .kuang{ width:95%; margin:0 auto;}
+            .clear{ clear:both;}
+            #export{ width:100px; height:40px; border:1px solid #44b549; background:#44b549; font-size:18px; color:#fff; float:right; display:block;
+                margin-bottom:20px; margin-top:20px; }
+            #table{ width:100%; border:1px solid #dfdfdf; border-spacing:0; border-collapse:collapse;	}
+            #table tr{	display:-webkit-flex; }
+            #table th,td{ border:1px solid #dfdfdf; height:40px; text-align:left; font:16px/40px "微软雅黑"; color:#797a75;}
+            #table th{ background:#eaeaea; color:#333;}
+            #table .number{ -webkit-flex:1; }
+            #table .client{ -webkit-flex:3; }
+            #table .name{ -webkit-flex:2; }
+            #table .phone{ -webkit-flex:2; }
+            #table .date{ -webkit-flex:2; }
+        </style>
+
+    </head>
+
+    <body>
+    <div class="table-striped">
+        <div class="kuang">
+            {:U('export',array('id'=>$data[id]))}
+            <a href="{:U('export',array('id'=>$data[id]))}"><button id="export">导出excel</button></a>
+            <table id="table">
+                <thead>
+                <tr>
+                    <th class="number">编号</th>
+                    <th class="client">客户名称</th>
+                    <th class="name">姓名</th>
+                    <th class="phone">电话</th>
+                    <th class="date">时间</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="data" id="data">
+                    <tr>
+                        <td class="number">{$data.id}</td>
+                        <td class="client">{$data.id}</td>
+                        <td class="name">{$data.name}</td>
+                        <td class="phone">{$data.phone}</td>
+                        <td class="date">{$data.time|date="Y-m-d H:i",###}</td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    </body>
+    </html>
+
+</block>
